@@ -1,0 +1,149 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.main
+{
+    width: 800px;
+    margin: 50px 300px;
+}
+
+h2
+{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+h3
+{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style:normal;
+}
+
+div.signup
+{
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+form#signup
+{
+    margin: 40px 0px;
+    margin-left: 150px;
+}
+
+label
+{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+input#username, input#email, input#phone, input#password
+{
+width: 300px;
+border-radius: 10px;
+border: 2px solid white;
+background-color: transparent;
+color: white;
+font-size: 16px;
+outline: 0;
+padding: 7px;
+box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.signup .submit
+{
+    margin-top: 20px;
+}
+.signup .submit a
+{
+    margin-left: 180px;
+    text-decoration: none;
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: rgba(250, 100, 0, 0.8);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+label,span,h2
+{
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn{
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    line-height: 40px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    background: rgba(255,40,0,.6);
+    border-radius: 25px;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 20px;
+	margin-left: 157px;
+	margin-bottom: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: rgb(255, 40, 0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+a
+{
+	position: center;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: darkgrey;
+	margin-left: 213px;
+}
+
+a:hover
+{
+    color: ghostwhite;
+}
+
+#myVideo
+{
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+	position: fixed;
+	background-attachment: fixed;
+	z-index: -1;
+	overflow: hidden;
+}

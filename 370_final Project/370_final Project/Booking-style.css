@@ -1,0 +1,196 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.main
+{
+    width: 800px;
+    margin: 100px auto 20px auto;
+}
+
+h2
+{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+div.booking
+{
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+form#booki
+{
+    margin: 40px 0px;
+    margin-left: 150px;
+}
+
+label
+{
+    margin-left: 150px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    color: #fff;
+}
+
+input#name, input#email, input#number, input#date
+{
+width: 300px;
+border: 1px solid #ddd;
+border-radius: 10px;
+outline: 0;
+padding: 7px;
+background-color: transparent;
+color: white;
+font-size: 25px;
+box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn
+{
+	display: inline-block;
+	height: 40px;
+	width: 250px;
+	line-height: 40px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	background: rgba(255,40,0,.6);
+	border-radius: 25px;
+	color: black;
+	text-transform: uppercase;
+	margin-top: 50px;
+	margin-left: 270px;
+	margin-bottom: 15px;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: bold;
+}
+    
+.btn:hover
+{
+        color: rgb(255, 40, 0);
+        background-color: rgba(0,0,0,0.4);
+}
+
+#myVideo
+{
+     min-width: 100%;
+     min-height: 100%;
+     top: 0;
+     left: 0;
+     width: auto;
+     height: auto;
+     position: fixed;
+     background-attachment: fixed;
+     z-index: -1;
+     overflow: hidden;
+}
+
+body>div:nth-child(1) 
+{
+    margin: 0px;
+    padding: 10px 0px;
+    height: 70px;
+    width: 100%;   
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	background-color: rgba(0,0,0,0.4);
+}
+
+body>div:hover 
+{
+    background-color: rgba(0,0,0,0.2);
+}
+
+.logo
+{
+    width: 220px;
+    height: 60px;
+    overflow: visible;
+    text-align: center;
+    display: inline-block;
+    letter-spacing: 2px;
+    float: left;
+}
+
+.logo a 
+{	
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	font-size: 200%;
+	padding: 10px 0px 10px 0px;
+}
+
+.logo a:hover 
+{
+    color: skyblue;
+}
+
+#navbar 
+{
+    margin: 0px;
+    padding: 10px 2px;
+    height: 60px;
+    float: right;
+}
+
+#navbar>ul 
+{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    height: 60px;
+}
+
+#navbar>ul>li 
+{
+	float: left;
+	height: 60px;
+	z-index: 1;
+	text-align: center;
+}
+
+#navbar>ul>li>a 
+{
+    text-decoration: none;
+    color: white;
+    display:inline-block;  
+	
+	min-width: 100px;
+	max-width: 180px;
+	
+    height: 30px;  
+    padding: 3px 30px;
+}
+
+#navbar>ul>li>a.active 
+{
+    color: skyblue;
+    border-bottom: 2px solid skyblue;
+}
+
+#navbar>ul>li>a:not(.active):hover 
+{
+	color: skyblue;
+	border-bottom: 2px solid;
+}
